@@ -1,0 +1,6 @@
+.Stats {
+  justify-content: space-between;
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+}

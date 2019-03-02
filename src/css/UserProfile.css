@@ -1,0 +1,39 @@
+.UserProfile {
+  align-items: flex-end;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.UserProfile .Btn {
+  display: inline-block;
+  margin: 10px 0 0;
+}
+
+.UserProfile-img {
+  border-radius: 10px;
+  display: inline-block;
+  height: 160px;
+  margin-right: 20px;
+  width: 160px;
+}
+
+.UserProfile-content {
+  max-width: 300px;
+  text-align: left;
+}
+
+.UserProfile-name {
+  margin-top: 10px;
+}
+
+.UserProfile-bio {
+  font-size: .85rem;
+  margin-top: 10px;
+}

@@ -1,0 +1,33 @@
+.UserData {
+  justify-content: space-between;
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.UserData-item {
+  box-shadow: -1px 21px 15px -14px rgba(0,0,0,0.1);
+  border: 1px solid gray;
+  align-items: center;
+  background: white;
+  border-radius: 5px;
+  padding: 20px 10px;
+  margin: 10px auto;
+  color: #2a2a2a;
+  text-align: left;
+  overflow: hidden;
+  width: 300px;
+}
+
+.UserData-title {
+  margin-bottom: 10px;
+}
+
+.UserData-text-small {
+  margin-bottom: 10px;
+  font-size: .75rem;
+}
+
+.UserData-text-small strong {
+  font-size: inherit;
+}

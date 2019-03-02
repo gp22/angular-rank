@@ -1,0 +1,51 @@
+.App {
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  padding: 20px;
+  display: flex;
+  color: white;
+}
+
+.App-view-controller {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  flex-grow: 1;
+}
+
+.App-section {
+  margin: 20px auto 0;
+  max-width: 1000px;
+  padding: 0 10px;
+  flex-grow: 1;
+}
+
+.App-footer p {
+  font-size: .75rem;
+  margin: .7rem 0;
+}
+
+.App-title-container {
+  text-align: left;
+}
+
+.App-title {
+  font-size: 1.5rem;
+}
+
+.App-subtitle {
+  font-size: 0.85rem;
+}
